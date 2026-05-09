@@ -13,15 +13,15 @@
 <body>
 
 <noscript>
-	<div id="notSupportedWrap">
-		<h2 id="notSupportedTitle">This content requires JavaScript</h2>
-		<p class="notSupportedMessage">
-			JavaScript is disabled. Please enable it to play this game.
-		</p>
-	</div>
+	<h2>JavaScript is required to play this game.</h2>
 </noscript>
 
-<!-- Main game script (NO modules, NO offline system) -->
+<!-- Core Construct runtime -->
+<script src="scripts/supportcheck.js"></script>
+<script src="scripts/c3runtime.js"></script>
+<script src="data.json"></script>
+
+<!-- Main bootstrap -->
 <script src="scripts/main.js"></script>
 
 </body>
